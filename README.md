@@ -11,6 +11,24 @@ Database Storage: Saves the results (topics and research outputs) into a Postgre
 
 ## Technologies Used
 NLP: Spacy with pyTextRank for summarization and text processing.
-Machine Learning: Scikit-learn for model training and prediction.
+Machine Learning: Scikit-learn for TD-IDF model training.
 Database: PostgreSQL for structured data storage.
 Web Scraping: BeautifulSoup for integrating Google search results.
+
+## Step-by-Step Instructions:
+1-) Search for any query/question in Turkish language. For seeing results you can write 'q' and press enter. Or you can add more queries. If you do so, program simply will detect what the topic and categories are and find a single result.
+![1](https://github.com/user-attachments/assets/61407238-caf7-4c72-a7a0-8039a377cb96)
+
+2-) Turkish newspaper clippings and some sample AI prompts were classified according to their subjects and the model was trained. The program determines the subject of the text you enter. You can see the performance of the trained model.
+![2](https://github.com/user-attachments/assets/0cf72962-e57b-497f-8233-d13771496d7f)
+
+3-) The program successfully determined main and sub-topics. The topic summary was found and a prompt  ready for search. The results from the search engine were listed. 
+![3](https://github.com/user-attachments/assets/0c1c20f9-44a1-4c26-a978-8cf0d2144661)
+
+4-) Main-topic,sub-topic and output saved to exist database via Postgresql.
+![4](https://github.com/user-attachments/assets/425d8662-bd84-4500-a942-e406178a64b9)
+
+
+
+
+
